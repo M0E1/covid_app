@@ -204,7 +204,6 @@ def run_prediction(img, model):
 # UI Logic
 # -------------------------------
 def show_home(lang):
-    st.markdown("<h4 style='text-align:center; color:gray;'>🚀 Powered by MobileNetV2 + Streamlit</h4>", unsafe_allow_html=True)
     st.title(T[lang]["title"])
     st.write(T[lang]["description"])
 
