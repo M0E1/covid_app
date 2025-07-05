@@ -183,7 +183,6 @@ section[data-testid="stSidebar"] * {
 def get_model():
     return load_model("covid_xray_classifier_mobilenetv2.h5")
 
-@st.cache_data
 def preprocess_image(_img, target_size=(224, 224)):
     img = _img.convert("RGB").resize(target_size)
     arr = np.array(img, dtype="float32") / 255.0
