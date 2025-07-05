@@ -15,16 +15,6 @@ A web application built with Streamlit and TensorFlow to classify chest X-ray im
 *   **📘 Detailed Model Info:** An "About" page provides insights into the model's architecture, training process, and performance metrics, including a classification report and confusion matrix.
 *   **🎨 Custom UI:** A sleek, modern interface with custom CSS animations and styling.
 
-## 📸 Screenshots
-
-*(Add screenshots of your application here to give users a visual preview.)*
-
-**Main Interface (Prediction)**
-> `[Image of the main application screen with an uploaded X-ray and prediction results]`
-
-**About Page (Model Performance)**
-> `[Image of the about page showing the confusion matrix and performance report]`
-
 ## 🛠️ Technology Stack
 
 *   **Backend & ML:** Python, TensorFlow, Keras
