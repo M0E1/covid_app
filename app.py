@@ -213,7 +213,7 @@ def show_home(lang):
         return
 
     img = Image.open(uploaded)
-    st.image(img, caption="🖼️ Uploaded X-ray", use_column_width=True)
+    st.image(img, caption="🖼️ Uploaded X-ray", use_container_width=True)
 
     if st.button(T[lang]["predict"]):
         with st.spinner("⏳ " + T[lang]["wait"]):
